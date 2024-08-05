@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+**Run the app on Google chrome with web security disabled to avoid cors error**
+To run google crome with disabled web security, run this command on command promp
+`"C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-web-security --disable-gpu --user-data-dir=%LOCALAPPDATA%\Google\chromeTemp`
+
 ## Available Scripts
 
 In the project directory, you can run:

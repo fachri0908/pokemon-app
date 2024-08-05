@@ -1,0 +1,28 @@
+.pokeball-catch{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    z-index: 998;
+}
+.spinner{
+    
+    opacity:1;
+    z-index: 999;
+}
+
+.jumping {
+    width: 50px;
+    -webkit-animation: jumping 0.7s infinite  alternate;
+    animation: jumping 0.7s infinite  alternate;
+}
+
+@-webkit-keyframes jumping {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes jumping {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
